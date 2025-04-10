@@ -12,9 +12,4 @@ public class ExemploController {
     return "Aplicacao Spring-Boot funcionando!";
  }
 
- @GetMapping("/livros")
- public String getLivros() {
-    return "Endpoint de livros...";
- }
-
 }

@@ -12,9 +12,14 @@ public class Livro {
     public int getAno() {return this.ano;}
     public void setAno(int ano) {this.ano = ano;}
 
-    public Livro(int id, String titulo, int ano) {
+    private String author;
+    public String getAuthor() {return this.author;}
+    public void setAuthor(String author) {this.author = author;}
+
+    public Livro(int id, String titulo, int ano, String author) {
         this.id = id;
         this.titulo = titulo;
         this.ano = ano;
+        this.author = author;
     }
 }
